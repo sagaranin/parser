@@ -1,0 +1,40 @@
+package main
+
+type GlobusItem struct {
+	ItemId          string `json:"itemId" db:"item_id"`
+	ItemCode        string `json:"itemCode" db:"item_code"`
+	ProductId       string `json:"productId" db:"product_id"`
+	Name            string `json:"name" db:"item_name"`
+	Href            string `json:"href" db:"href"`
+	Picture         string `json:"picture" db:"picture"`
+	Price           string `json:"price" db:"price"`
+	Old_price       string `json:"old_price" db:"old_price"`
+	Step            string `json:"step" db:"step"`
+	Min             string `json:"min" db:"item_min"`
+	Max             string `json:"max" db:"item_max"`
+	ItemType        string `json:"type" db:"item_type"`
+	Measure         string `json:"measure" db:"measure"`
+	MeasureRatio    string `json:"measureRatio" db:"measure_ratio"`
+	ShowDiscount    bool   `json:"showDiscount" db:"show_discount"`
+	IsLoyalPrice    bool   `json:"isLoyalPrice" db:"is_loyal_price"`
+	ShowRedPrice    bool   `json:"showRedPrice" db:"show_red_price"`
+	DiscountPercent string `json:"discountPercent" db:"discount_percent"`
+	AvWeight        string `json:"avWeight" db:"av_weight"`
+	IsPriceGram     bool   `json:"isPriceGram" db:"is_price_gram"`
+	IsAlcogol       bool   `json:"isAlcogol" db:"is_alcogol"`
+	IsAlcoAllowed   bool   `json:"isAlcoAllowed" db:"is_alco_allowed"`
+	IsSignable      bool   `json:"isSignable" db:"is_signable"`
+	ChipsPrice      string `json:"chipsPrice" db:"chips_price"`
+	List            string `json:"list" db:"item_list"`
+	Brand           string `json:"brand" db:"brand"`
+	Category        string `json:"category" db:"category"`
+	IsTheme         bool   `json:"isTheme" db:"is_theme"`
+	SortSection     string `json:"sortSection" db:"sort_section"`
+	Print_price     string `json:"print_price" db:"print_price"`
+	Print_old_price string `json:"print_old_price" db:"print_old_price"`
+	Xml_id          string `json:"xml_id" db:"xml_id"`
+	Hyper_code      string `json:"hyper_code" db:"hyper_code"`
+	IsMarked        bool   `json:"isMarked" db:"is_marked"`
+	SectionId       string `json:"sectionId" db:"section_id"`
+	SectionName     string `json:"sectionName" db:"section_name"`
+}
